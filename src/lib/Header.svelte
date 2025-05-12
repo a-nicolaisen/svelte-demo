@@ -14,6 +14,6 @@
         color: white;
         display: flex;
         flex-direction: column;
-        text-decoretion: none;
+        text-decoration: none;
     }
 </style>
