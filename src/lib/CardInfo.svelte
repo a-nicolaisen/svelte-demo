@@ -1,6 +1,4 @@
 <script>
-  import UserDisplay from "./UserDisplay.svelte";
-
     let cardData = {
         name: "Melanie Ostermaier",
         info:"This is the card information. It could be very long, just put in whatever you want"
