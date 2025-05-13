@@ -4,11 +4,19 @@
   import Header from "$lib/Header.svelte";
   import Quote from "$lib/Quote.svelte";
 
+  let quote1 = {
+    quoteText: "Words can be like X-rays, if you use them properly - they'll go through anything. You read and you're pierced.",
+    author: "Aldos Huxley",
+    publication: "Brave new World",
+    citeUrl: "https://www.huxley.net/bnw/four.html"
+  }
+
 </script>
+
 <Header />
 <h1>Welcome to SvelteKit</h1>
 <p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
-<Quote />
+<Quote quote={quote1}/>
 <div class="card-grid">
   <Card />
   <Card />
