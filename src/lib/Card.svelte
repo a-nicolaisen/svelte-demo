@@ -11,12 +11,12 @@
 <div class="card">
     <h2>{cardData.title}</h2>
     <div>
-        <figure>
+        <div>
            <UserDisplay /> 
-        </figure>
-        <figcaption class="info">
+        </div>
+        <div class="info">
             <CardInfo />
-        </figcaption>
+        </div>
     </div>
     
     
@@ -35,6 +35,9 @@
 
     .card div {
         display: flex;
+    }
+    .info {
+        padding-left: 1.5em;
     }
         
 </style>

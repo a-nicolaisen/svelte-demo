@@ -23,6 +23,6 @@
         align-items: center;
         display: inline;
         padding-right: 1em;
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 </style>
