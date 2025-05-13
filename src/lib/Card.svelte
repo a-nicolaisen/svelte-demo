@@ -2,9 +2,7 @@
   import CardInfo from "./CardInfo.svelte";
   import UserDisplay from "./UserDisplay.svelte";
 
-    let cardData = {
-        title: "My Card",
-    }
+    let { cardData } = $props();
     
 </script>
 

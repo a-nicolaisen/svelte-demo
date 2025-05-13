@@ -36,6 +36,21 @@
       citeUrl: "https://www.huxley.net/bnw/four.html"
     }
   ];
+
+  let cards = [
+    {
+        title: "Ostermaier who?"
+    },
+    {
+        title: "Abdis gruesst!"
+    },
+    {
+        title: "Nicolaisen ist auch dabei"
+    },
+    {
+        title: "Jemand anderes"
+    }
+  ];
 </script>
 
 <Header />
@@ -47,11 +62,9 @@
 {/each}
 
 <section class="card-grid">
-  <Card />
-  <Card />
-  <Card />
-  <Card />
-  <Card />
+  {#each cards as card}
+    <Card {card}/>
+  {/each}
 </section>
 <Footer />
 
