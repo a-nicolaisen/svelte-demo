@@ -12,5 +12,13 @@
 </div>
 
 <style>
-
+    div {
+        background-color: rgb(247, 227, 227);
+        padding: 3px;
+        margin-bottom: 1em;
+    }
+    blockquote {
+        background-color: rgb(192, 153, 153);
+        padding: 0.2em;
+    }
 </style>

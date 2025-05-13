@@ -4,34 +4,35 @@
   import Header from "$lib/Header.svelte";
   import Quote from "$lib/Quote.svelte";
 
-  let bananas = {
+  let quotes = [
+    {
     quoteText: "Words can be like X-rays, if you use them properly - they'll go through anything. You read and you're pierced.",
     author: "Aldos Huxley",
     publication: "Brave new World",
     citeUrl: "https://www.huxley.net/bnw/four.html"
-  }
-  let lorem = {
-    quoteText: "lorem...",
-    author: "Lorem Author",
-    publication: "Lorem is boring by now",
-    citeUrl: "https://www.huxley.net/bnw/four.html"
-  }
-  let batman = {
-    quoteText: "I'm batman!!",
-    author: "Batman",
-    publication: "Marvel",
-    citeUrl: "https://www.huxley.net/bnw/four.html"
-  }
-
+    },
+    {
+      quoteText: "lorem...",
+      author: "Lorem Author",
+      publication: "Lorem is boring by now",
+      citeUrl: "https://www.huxley.net/bnw/four.html"
+    },
+    {
+      quoteText: "I'm batman!!",
+      author: "Batman",
+      publication: "Marvel",
+      citeUrl: "https://www.huxley.net/bnw/four.html"
+    }
+  ];
 </script>
 
 <Header />
 <h1>Welcome to SvelteKit</h1>
 <p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
 
-<Quote quote={bananas}/>
-<Quote quote={lorem}/>
-<Quote quote={batman}/>
+{#each quotes as quote}
+  <Quote {quote}/>
+{/each}
 
 <section class="card-grid">
   <Card />
