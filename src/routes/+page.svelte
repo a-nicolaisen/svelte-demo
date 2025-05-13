@@ -6,6 +6,12 @@
 
   let quotes = [
     {
+    quoteText: "Das ist so ein Spruch von mir...",
+    author: "Melanie Ostermaier",
+    publication: "Apartment 306",
+    citeUrl: "https://www.huxley.net/bnw/four.html"
+    },  
+  {
     quoteText: "Words can be like X-rays, if you use them properly - they'll go through anything. You read and you're pierced.",
     author: "Aldos Huxley",
     publication: "Brave new World",
@@ -15,6 +21,12 @@
       quoteText: "lorem...",
       author: "Lorem Author",
       publication: "Lorem is boring by now",
+      citeUrl: "https://www.huxley.net/bnw/four.html"
+    },
+    {
+      quoteText: "Heute zitiere ich Melanie Ostermaier: Hallooooooooo",
+      author: "Alina",
+      publication: "Spoken",
       citeUrl: "https://www.huxley.net/bnw/four.html"
     },
     {
