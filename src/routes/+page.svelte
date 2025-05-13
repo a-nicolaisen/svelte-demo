@@ -2,11 +2,13 @@
   import Footer from "$lib/Footer.svelte";
   import Card from "$lib/Card.svelte";
   import Header from "$lib/Header.svelte";
+  import Quote from "$lib/Quote.svelte";
 
 </script>
 <Header />
 <h1>Welcome to SvelteKit</h1>
 <p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<Quote />
 <div class="card-grid">
   <Card />
   <Card />
