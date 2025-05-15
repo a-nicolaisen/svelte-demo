@@ -1,7 +1,7 @@
 <script>
     let cardData = {
         name: "Melanie Ostermaier",
-        info:"This is the card information. It could be very long, just put in whatever you want"
+        info: "This is the card information. It could be very long, just put in whatever you want"
     }
 </script>
 

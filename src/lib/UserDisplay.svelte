@@ -1,8 +1,11 @@
 <script>
-    let { userdisplay } = $props();
+    let userdisplay = {
+        img: "https://picsum.photos/id/237/200/300",
+        userName: "m.ostermaier"
+    }
 </script>
 
 <div>
-    <img src={img} alt="userImage">
-    <p>{userName}</p>
+    <img src={userdisplay.img} alt="userImage">
+    <p>{userdisplay.userName}</p>
 </div>
