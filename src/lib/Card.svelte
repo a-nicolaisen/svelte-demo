@@ -2,12 +2,12 @@
   import CardInfo from "./CardInfo.svelte";
   import UserDisplay from "./UserDisplay.svelte";
 
-    let { cardData } = $props();
+    let { card } = $props();
     
 </script>
 
 <div class="card">
-    <h2>{cardData.title}</h2>
+    <h2>{card.title}</h2>
     <div>
         <div>
            <UserDisplay /> 
