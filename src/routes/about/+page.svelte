@@ -1,7 +1,8 @@
 <script>
     import Header from "$lib/Header.svelte";
     import Quote from "$lib/Quote.svelte";
-    
+    import Footer from "$lib/Footer.svelte";
+
     let quotes = [
     {
     quoteText: "Das ist so ein Spruch von mir...",
@@ -42,6 +43,8 @@
 {#each quotes as quote}
   <Quote {quote}/>
 {/each}
+
+<Footer /> 
 
 <style>
 
