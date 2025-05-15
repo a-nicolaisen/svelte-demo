@@ -2,7 +2,7 @@
   import Footer from "$lib/Footer.svelte";
   import Header from "$lib/Header.svelte";
 
-
+    let text = $state(''); 
 </script>
 
 <Header />
@@ -23,6 +23,8 @@
     <div class="input">
         <label for="comment">Leave a nice comment!</label>
         <input id="comment" type="text"> 
+        <input bind:value={text} />
+        <p>This is from the input: {text}</p>
     </div>
     
     <div class="posts">

@@ -12,6 +12,7 @@
     nav {
         background-color: lightgray;
         padding: 1em;
+        border-radius: 2px;
     }
     a {
         text-decoration: none;
