@@ -1,4 +1,5 @@
 <script>
+  import Footer from "$lib/Footer.svelte";
   import Header from "$lib/Header.svelte";
 
   let { children } = $props();
@@ -8,6 +9,9 @@
 <Header />
 <!--This is where the page content will go-->
 {@render children()}
+
+<!--Include Footer-->
+<Footer />
 
 <style>
 </style>
