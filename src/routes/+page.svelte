@@ -32,20 +32,6 @@
 </section>
 
 <style>
-  :global(*) {
-    font-family:
-      system-ui,
-      -apple-system,
-      BlinkMacSystemFont,
-      "Segoe UI",
-      Roboto,
-      Oxygen,
-      Ubuntu,
-      Cantarell,
-      "Open Sans",
-      "Helvetica Neue",
-      sans-serif;
-  }
   .card-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
