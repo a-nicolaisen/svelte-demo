@@ -1,5 +1,4 @@
 <script>
-    import Header from "$lib/Header.svelte";
     import Quote from "$lib/Quote.svelte";
     import Footer from "$lib/Footer.svelte";
 
@@ -37,7 +36,6 @@
     ];
 </script>
 
-<Header />
 <h2>About us</h2>
 
 {#each quotes as quote}

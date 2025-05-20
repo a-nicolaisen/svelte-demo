@@ -1,11 +1,9 @@
 <script>
   import Footer from "$lib/Footer.svelte";
-  import Header from "$lib/Header.svelte";
 
     let text = $state(''); 
 </script>
 
-<Header />
 <section class="headline">
     <h2>Alina's Blog</h2>
     <p>welcome to my personal blog! Leave a comment down below :)</p> 
