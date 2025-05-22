@@ -6,16 +6,36 @@
   let cards = [
     {
       title: "Ostermaier who?",
+      user: {
+        userName: "m.ostermaier",
+        img: "https://picsum.photos/id/237/200/300",
+      },
+      info: "Hier kommt infotext rein",
     },
     {
       title: "Abdis gruesst!",
+      user: {
+        userName: "m.ostermaier",
+        img: "https://picsum.photos/id/237/200/300",
+      },
+      info: "Hier kommt infotext rein",
     },
     {
       title: "Nicolaisen ist auch dabei",
+      user: {
+        userName: "m.ostermaier",
+        img: "https://picsum.photos/id/237/200/300",
+      },
+      info: "Hier kommt infotext rein",
     },
     {
       title: "Jemand anderes",
-    },
+      user: {
+        userName: "m.ostermaier",
+        img: "https://picsum.photos/id/237/200/300",
+      },
+      info: "Hier kommt infotext rein",
+    }
   ];
 </script>
 
